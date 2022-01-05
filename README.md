@@ -1,4 +1,3 @@
-### Added Stop method for stopping the connection see example [how to use it] & give it a star
 # react-native-signalr
 
 > Note: This package is not compatible with ASP.NET Core SignalR and is not the recommended client for building serverless applications with Azure SignalR Service.

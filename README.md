@@ -1,16 +1,16 @@
-# react-native-signalr
+# react-native-signalr-mvc
 
 > Note: This package is not compatible with ASP.NET Core SignalR and is not the recommended client for building serverless applications with Azure SignalR Service.
 
 This allow you to connect to an ASP.NET MVC SignalR service from your react-native app.
 
-This brings in the offical https://www.npmjs.com/package/signalr package with a minimal jQuery shim to get things working (big thanks to Olof Dahlbom!).
+This brings in the offical https://www.npmjs.com/package/signalr package with a minimal jQuery shim (big thanks to Olof Dahlbom!).
 
 SignalR 2.4.2 is supported.
 
 # Install:
 ```
-npm install https://github.com/jontymorris/react-native-signalr
+npm install react-native-signalr-mvc
 ```
 
 # Awesome-project:

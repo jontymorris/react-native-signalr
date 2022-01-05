@@ -1,7 +1,7 @@
 {
-  "name": "react-native-signalr",
+  "name": "react-native-signalr-mvc",
   "version": "2.0.0",
-  "description": "Connect to a SignalR server from react-native",
+  "description": "Connect to a ASP.NET MVC SignalR server from react-native",
   "main": "index.js",
   "repository": {
     "type": "git",

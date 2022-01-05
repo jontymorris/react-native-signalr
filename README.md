@@ -1,12 +1,13 @@
 ### Added Stop method for stopping the connection see example [how to use it] & give it a star
 # react-native-signalr
 
-Connect to your SignalR-server with a active websocket-connection from react-native.
-Supports all error-handling and reconnection, including longpolling if needed.
+> Note: This package is not compatible with ASP.NET Core SignalR and is not the recommended client for building serverless applications with Azure SignalR Service.
 
-Today the module shims the jQuery-dependency that signalr has.
-There is however an ongoing task upstream to remove this dependency.
+This allow you to connect to an ASP.NET MVC SignalR service from your react-native app.
 
+This brings in the offical https://www.npmjs.com/package/signalr package with a minimal jQuery shim to get things working (big thanks to Olof Dahlbom!).
+
+SignalR 2.4.2 is supported.
 
 # Install:
 ```

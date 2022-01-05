@@ -1,19 +1,19 @@
 {
   "name": "react-native-signalr",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Connect to a SignalR server from react-native",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olofd/react-native-signalr.git"
+    "url": "git+https://github.com/jontymorris/react-native-signalr.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Olof Dahlbom",
+  "author": "Jonty Morris (forked from Olof Dahlbom)",
   "license": "MIT",
   "dependencies": {
-    "ms-signalr-client": "^2.2.7",
+    "signalr": "^2.4.2",
     "jquery-deferred": "^0.3.1"
   }
 }

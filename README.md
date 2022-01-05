@@ -10,14 +10,8 @@ There is however an ongoing task upstream to remove this dependency.
 
 # Install:
 ```
-npm i react-native-signalr --save
+npm install https://github.com/jontymorris/react-native-signalr
 ```
-
-##
-There is an example server setup at https://react-native-signalr.olofdahlbom.se (Also a http version but you must disable App security transport on iOS for that, read in issues) (no webite, only responds to signalr)
-If it's up and running, you can use it to debug against.
-You can find the source for that server under examples/server.
-The code below uses that server to setup a connection and communicate over websockets using signalr.
 
 # Awesome-project:
 

@@ -29,7 +29,7 @@ export default {
   hubConnection: (serverUrl, options) => {
     const revertDocument = makeSureDocument();
     if (!signalRHubConnectionFunc) {
-      require("ms-signalr-client");
+      require("signalr");
       signalRHubConnectionFunc = window.jQuery.hubConnection;
     }
     const [protocol, host] = serverUrl.split(/\/\/|\//);
